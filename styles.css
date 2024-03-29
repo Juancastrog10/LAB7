@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FEAC5E;  
+    background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); 
+    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); 
+
+  }
+  
+  header {
+    background-color: #ffffff;
+    color: #651394;
+    padding: 15px 20px;
+    border-radius: 30px;
+    margin-top: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contenedor {
+    margin-top: 1.5rem;
+  
+    border-radius: 30px;
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .main {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #task-list {
+    border-radius: 30px;
+    width: 28vw;
+    height: 65vh;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: flex-start;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    width: 28vw;
+    border-radius: 30px;
+    padding: 0.1rem;
+    padding-left: 0.3rem;
+    background-color: #eaebec;
+  }
+  
+  .task-status {
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  #task-stats {
+    border-radius: 30px;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 1rem;
+    background-color: #651394;
+    color: #ffffff;
+  }
+  .pending {
+    color: red;
+  }
+  .completed {
+    color: rgb(123, 123, 123);
+    text-decoration: line-through; 
+  }
+  
+  .pending {
+    color: #651394;
+  }
+  
+  .complete-btn {
+    cursor: pointer;
+    background-color: #651394; 
+    color: #fff; 
+    border: none;
+    border-radius: 50%; 
+    width: 30px;
+    height: 30px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-left: 10px; 
+  }
+  .completeBtn.completed {
+    background-color: #28a745;
+  }
+  
+  .complete-btn:hover {
+    background-color: rgb(233, 57, 165);
+  }
+  
+    
